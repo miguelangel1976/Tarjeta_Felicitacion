@@ -69,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
         //Se pasa el contexto que es "este archivo java" (this) y el Fichero MP3
         // almacenada en la Clase R que es una clase de java que contiene todos los
         // recursos en forma de variables estáticas
-       // MediaPlayer cancion = MediaPlayer.create(this, R.raw.happy_birthday);
+        MediaPlayer cancion = MediaPlayer.create(this, R.raw.happy_birthday);
 
 
        //Poner en Marcha el objeto "canción" de la Clase MediaPlayer
-       // cancion.start();
+       cancion.start();
     }
 }
