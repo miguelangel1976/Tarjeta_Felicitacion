@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Feliz Cumpleaños</string>
+    <string name="felicidades">{FELICIDADES}</string>
+    <string name="miguel_angel">MIGUEL ANGEL </string>
+    <string name="de_parte_de">de parte de</string>
+    <string name="textosplash">Cargando...</string>
+</resources>

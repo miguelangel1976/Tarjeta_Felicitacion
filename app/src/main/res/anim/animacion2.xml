@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ==================
+
+EJEMPLO 2: VIDEO 15
+
+El titulo principal "FELICIDADES" en un principio no se va a visualizar.
+A continuación se va ir haciendo más grande.
+Y a la vez que se va haciendo más grande, va a girar 360 grados.
+
+Dos animaciones simultáneas ESCALADO y ROTACIÓN
+-->
+
+    <scale
+
+        android:duration = "3000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+
+        android:fromXScale="0"
+        android:fromYScale="0"
+
+        android:toXScale="1"
+        android:toYScale="1"
+
+
+        />
+
+
+    <rotate
+        android:fromDegrees ="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration = "3000"
+        />
+
+
+
+</set>

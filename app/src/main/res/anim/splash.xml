@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fillAfter="true">
+
+    <!-- Se pone fillAfter para indicar que se quede como se ha quedado al final de las animaciones,
+    y no regrese a su estado inicial.
+
+    -->
+    <!-- El texto entra por el lado derecho de la Pantalla
+    y se centra en pantalla.
+    El centro es x=0 e y=0
+
+    -->
+
+    <translate
+        android:fromYDelta="0"
+        android:toYDelta="0"
+        android:fromXDelta="700"
+        android:toXDelta="0"
+        android:duration="3000"
+        />
+
+
+
+    <!-- Animación en Escalado
+
+    para que vaya encogiendo el texto de 1 a 0
+
+
+    El pivote en Y a la mitad y en X a 0
+
+    Se pone un retardo, para que las animaciones sean consecutivas:
+    una detrás de otra.
+    -->
+
+    <scale
+
+        android:startOffset="3500"
+
+        android:pivotY="50%"
+        android:pivotX="0"
+
+        android:fromYScale="1"
+        android:fromXScale="1"
+        android:toYScale="1"
+        android:toXScale="0"
+        android:duration="2000"
+        />
+
+
+</set>
